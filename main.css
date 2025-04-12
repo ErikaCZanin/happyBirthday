@@ -131,43 +131,47 @@ body {
 }
 
 .heart {
-display: inline-flex;
-align-items: center;
-gap: 4px;
-cursor: pointer;
-vertical-align: middle;
-position: relative; /* Importante para posicionar os corações adicionais */
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    /* Importante para posicionar os corações adicionais */
 }
 
 .heart-icon {
-transition: transform 0.2s ease;
-width: 40px; /* Ajuste o tamanho do coração conforme necessário */
-height: 40px;
-fill: #FF0000; /* Cor do coração */
+    transition: transform 0.2s ease;
+    width: 40px;
+    /* Ajuste o tamanho do coração conforme necessário */
+    height: 40px;
+    fill: #FF0000;
+    /* Cor do coração */
 }
 
 /* Efeito para o coração principal ao ser clicado */
 .heart.clicked .heart-icon {
-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* Estilo para os novos corações que aparecerão acima */
 .new-heart {
-position: absolute;
-animation: rise 0.9s forwards;
-font-size: 20px;
-color: red;
+    position: absolute;
+    animation: rise 0.9s forwards;
+    font-size: 20px;
+    color: red;
 }
 
 @keyframes rise {
-0% {
-opacity: 1;
-transform: translateY(0);
-}
-100% {
-opacity: 0;
-transform: translateY(-30px);
-}
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
 }
 
 
@@ -272,5 +276,5 @@ transform: translateY(-30px);
     display: flex;
     justify-content: space-between;
     backface-visibility: hidden;
-    
+
 }
