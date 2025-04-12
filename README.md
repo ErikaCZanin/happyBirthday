@@ -22,6 +22,6 @@ Projeto criado para **comemorar meu aniversário** e compartilhar momentos espec
 
 ### 💫 Deploy
 
-O site está disponível online para todos os convidados acessarem:
+O site está disponível online:
 
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white)](https://happy-birthday-kappa-five.vercel.app/)
